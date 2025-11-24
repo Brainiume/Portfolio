@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Games</title>
+    <link rel="stylesheet" href="HTML_Games.css">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="Icons.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fee6mcx.css">
+    <link rel="stylesheet" href="https://unpkg.com/lucide-static@latest/font/lucide.css" />
+    <script type="module" src="CustomHTMLElements.js"></script>
+    <script src="libraries/p5.min.js"></script>
+    <script src="HTML_GameManager.js"></script>
+    <script type="module" src="CustomHTMLElements.js"></script>
+    <script src="ButtonHover.js"></script>
+</head>
+<body>
+    <navigation-bar></navigation-bar>
+
+    <div id="mainContent"> 
+        <div id="gameNav">
+            <button class="btn" onclick="loadNewGame('Pong')">G1</button>
+            <button class="btn" onclick="loadNewGame('SpaceInvaders')">G2</button>
+            <button class="btn" onclick="loadNewGame('Pacman')">G3</button>   
+        </div>
+        <div id="gamePanel">
+
+        </div>
+    </div>
+    <footer-bar></footer-bar>
+</body>
+</html>
